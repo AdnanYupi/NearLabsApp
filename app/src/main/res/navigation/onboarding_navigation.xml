@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/onboarding_navigation"
+    app:startDestination="@id/verificationFragment">
+
+    <fragment
+        android:id="@+id/verificationFragment"
+        android:name="com.yupi.nearlabsapp.views.fragments.onboarding.VerificationFragment"
+        android:label="VerificationFragment" >
+        <action
+            android:id="@+id/action_verificationFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAccountFragment"
+        android:name="com.yupi.nearlabsapp.views.fragments.onboarding.CreateAccountFragment"
+        android:label="CreateAccountFragment" >
+        <action
+            android:id="@+id/action_createAccountFragment_to_giftNftFragment"
+            app:destination="@id/giftNftFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/giftNftFragment"
+        android:name="com.yupi.nearlabsapp.views.fragments.onboarding.GiftNftFragment"
+        android:label="GiftNftFragment" />
+</navigation>

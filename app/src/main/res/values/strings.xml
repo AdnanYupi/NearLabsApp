@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NearLabsApp</string>
+    <string name="we_ve_sent_">We\'ve sent a 6-digit verification code to\nthe email address</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="_continue">Continue</string>
+    <string name="didn_t_receive_your_code">Didn\'t receive your code?</string>
+    <string name="send_to_a_different_email_address">Send to a different email address</string>
+    <string name="send_to_a_different_phone_number">Send to a different phone number</string>
+    <string name="resend_your_code">Resend your code</string>
+    <string name="verification">Verification</string>
+    <string name="enter_an_account">Enter an Account ID to use with your NEAR account. Your Account ID will be used for all NEAR operations, including sending and receiving assets.</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="account_id">ACCOUNT ID</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="already_have_account">Already have Near Account?</string>
+    <string name="login_with_near">Login with NEAR</string>
+    <string name="create_near_account">Create NEAR account</string>
+    <string name="gift_nft">Gift an NFT</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="get_started">Get Started</string>
+    <string name="share_app">Share App</string>
+    <string name="send_gift">Send Gift</string>
+    <string name="search_people">Search People</string>
+    <string name="_import">Import</string>
+</resources>
