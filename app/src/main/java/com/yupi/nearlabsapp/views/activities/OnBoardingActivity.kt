@@ -57,6 +57,7 @@ class OnBoardingActivity : BaseActivity<ActivityOnboardingBinding, OnBoardingVie
 
     private fun initViews() {
         viewModel.initFirstScreen()
+
         binding?.closeBtn?.setOnClickListener {
             finish()
         }

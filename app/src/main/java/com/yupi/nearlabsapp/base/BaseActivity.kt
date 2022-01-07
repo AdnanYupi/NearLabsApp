@@ -29,6 +29,7 @@ abstract class BaseActivity<VB : ViewBinding, VM : BaseViewModel> : AppCompatAct
         super.onCreate(savedInstanceState)
         _binding = bindingInflater.invoke(layoutInflater)
         setContentView(_binding?.root)
+
         setTransparentStatusBar()
         inflated()
     }
